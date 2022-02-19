@@ -1,0 +1,2145 @@
+.root {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  padding: 96px 24px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 16px;
+}
+.studentDashboard {
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+}
+.studentDashboard > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.studentDashboard > :global(.__wab_flex-container) > *,
+.studentDashboard > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.studentDashboard > :global(.__wab_flex-container) > picture > img,
+.studentDashboard
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 32px;
+}
+.navigation {
+  height: 72px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.frame95455 {
+  flex-direction: row;
+  width: 1390px;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame95455 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.frame95455 > :global(.__wab_flex-container) > *,
+.frame95455 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame95455 > :global(.__wab_flex-container) > picture > img,
+.frame95455
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+}
+.cardGoodMorning {
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 0.059))
+    drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.07));
+  width: 336px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 4px;
+  padding: 24px;
+}
+.cardGoodMorning > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.cardGoodMorning > :global(.__wab_flex-container) > *,
+.cardGoodMorning > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardGoodMorning > :global(.__wab_flex-container) > picture > img,
+.cardGoodMorning
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.displayProfilePicture {
+  flex-direction: column;
+  background: url("/plasmic/blank_project/images/displayProfilePicture.png") center center / cover no-repeat;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 300px;
+  padding: 10px;
+}
+.displayProfilePicture > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.displayProfilePicture > :global(.__wab_flex-container) > *,
+.displayProfilePicture
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.displayProfilePicture > :global(.__wab_flex-container) > picture > img,
+.displayProfilePicture
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.text__siaMn {
+  display: block;
+  font-size: 36px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 44px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.cardOnboarding {
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 0.059))
+    drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.07));
+  width: 336px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.cardOnboarding > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.cardOnboarding > :global(.__wab_flex-container) > *,
+.cardOnboarding > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardOnboarding > :global(.__wab_flex-container) > picture > img,
+.cardOnboarding
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.cardBodyCopy {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  padding: 24px;
+}
+.cardBodyCopy > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.cardBodyCopy > :global(.__wab_flex-container) > *,
+.cardBodyCopy > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardBodyCopy > :global(.__wab_flex-container) > picture > img,
+.cardBodyCopy
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__vDpG {
+  display: block;
+  font-size: 36px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 44px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__imlyW {
+  display: block;
+  font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.75);
+  align-self: stretch;
+  position: relative;
+}
+.ctaRow {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 8px;
+  padding-bottom: 24px;
+}
+.buttonFormInlineTextDefault {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 4px;
+  padding: 10px 18px;
+}
+.buttonFormInlineTextDefault > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.buttonFormInlineTextDefault > :global(.__wab_flex-container) > *,
+.buttonFormInlineTextDefault
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.buttonFormInlineTextDefault > :global(.__wab_flex-container) > picture > img,
+.buttonFormInlineTextDefault
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.label {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(43, 43, 43, 1);
+  position: relative;
+}
+.whatsNew {
+  flex-direction: row;
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 0.059))
+    drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.07));
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  border-radius: 4px;
+}
+.whatsNew > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.whatsNew > :global(.__wab_flex-container) > *,
+.whatsNew > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.whatsNew > :global(.__wab_flex-container) > picture > img,
+.whatsNew
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+}
+.section1 {
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bodyCopy {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+.bodyCopy > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.bodyCopy > :global(.__wab_flex-container) > *,
+.bodyCopy > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.bodyCopy > :global(.__wab_flex-container) > picture > img,
+.bodyCopy
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__mgKjD {
+  display: block;
+  font-size: 36px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 44px;
+  color: rgba(43, 43, 43, 1);
+  position: relative;
+}
+.text__zIvRj {
+  display: block;
+  font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.75);
+  position: relative;
+  width: 310px;
+  height: 100px;
+  flex-shrink: 0;
+}
+.buttonRow {
+  width: 334px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.formInlineTextDefault {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 4px;
+  padding: 10px 18px;
+}
+.formInlineTextDefault > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.formInlineTextDefault > :global(.__wab_flex-container) > *,
+.formInlineTextDefault
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.formInlineTextDefault > :global(.__wab_flex-container) > picture > img,
+.formInlineTextDefault
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.label2 {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(43, 43, 43, 1);
+  position: relative;
+}
+.formInlineTextDefault2 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 4px;
+  padding: 10px 18px;
+}
+.formInlineTextDefault2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.formInlineTextDefault2 > :global(.__wab_flex-container) > *,
+.formInlineTextDefault2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.formInlineTextDefault2 > :global(.__wab_flex-container) > picture > img,
+.formInlineTextDefault2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.label3 {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(43, 43, 43, 1);
+  position: relative;
+}
+.whatsNewImage {
+  background: url("/plasmic/blank_project/images/whatsNewImage.png") center center / cover no-repeat;
+  height: 232px;
+  display: block;
+  position: relative;
+  flex-grow: 1;
+  border-radius: 8px;
+}
+.continueLearningSection {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.continueLearningSection > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.continueLearningSection > :global(.__wab_flex-container) > *,
+.continueLearningSection
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.continueLearningSection > :global(.__wab_flex-container) > picture > img,
+.continueLearningSection
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.text__tqQpf {
+  display: block;
+  font-size: 24px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(43, 43, 43, 1);
+  position: relative;
+}
+.cardsContinueLearningRow {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.cardsContinueLearningRow > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.cardsContinueLearningRow > :global(.__wab_flex-container) > *,
+.cardsContinueLearningRow
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.cardsContinueLearningRow > :global(.__wab_flex-container) > picture > img,
+.cardsContinueLearningRow
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+}
+.goodMorning {
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 0.059))
+    drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.07));
+  width: 336px;
+  height: 365px;
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.goodMorning > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.goodMorning > :global(.__wab_flex-container) > *,
+.goodMorning > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.goodMorning > :global(.__wab_flex-container) > picture > img,
+.goodMorning
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.cardImage {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.cardImage > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.cardImage > :global(.__wab_flex-container) > *,
+.cardImage > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardImage > :global(.__wab_flex-container) > picture > img,
+.cardImage
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.image77 {
+  background: url("/plasmic/blank_project/images/image77.png") center center / cover no-repeat;
+  display: block;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.frame95451 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.frame95451 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame95451 > :global(.__wab_flex-container) > *,
+.frame95451 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame95451 > :global(.__wab_flex-container) > picture > img,
+.frame95451
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.frame95452 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text__yZh0V {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__zrvSt {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__qKgdm {
+  display: block;
+  font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.75);
+  align-self: stretch;
+  position: relative;
+}
+.buttonContainer {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.buttonContainer > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.buttonContainer > :global(.__wab_flex-container) > *,
+.buttonContainer > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttonContainer > :global(.__wab_flex-container) > picture > img,
+.buttonContainer
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.button {
+  flex-direction: row;
+  background: rgba(41, 241, 173, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 9px 32px 10px;
+}
+.button > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.button > :global(.__wab_flex-container) > *,
+.button > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.button > :global(.__wab_flex-container) > picture > img,
+.button
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.text__lZjDv {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20.5px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.goodMorning2 {
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 0.059))
+    drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.07));
+  width: 336px;
+  height: 365px;
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.goodMorning2 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.goodMorning2 > :global(.__wab_flex-container) > *,
+.goodMorning2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.goodMorning2 > :global(.__wab_flex-container) > picture > img,
+.goodMorning2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.cardImage2 {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.cardImage2 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.cardImage2 > :global(.__wab_flex-container) > *,
+.cardImage2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardImage2 > :global(.__wab_flex-container) > picture > img,
+.cardImage2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.image78 {
+  background: url("/plasmic/blank_project/images/image77.png") center center / cover no-repeat;
+  display: block;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.frame95453 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.frame95453 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame95453 > :global(.__wab_flex-container) > *,
+.frame95453 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame95453 > :global(.__wab_flex-container) > picture > img,
+.frame95453
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.frame95454 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text__aQSm {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__hKyO {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__wAkUk {
+  display: block;
+  font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.75);
+  align-self: stretch;
+  position: relative;
+}
+.buttonContainer2 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.buttonContainer2 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.buttonContainer2 > :global(.__wab_flex-container) > *,
+.buttonContainer2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttonContainer2 > :global(.__wab_flex-container) > picture > img,
+.buttonContainer2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.button2 {
+  flex-direction: row;
+  background: rgba(41, 241, 173, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 9px 32px 10px;
+}
+.button2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.button2 > :global(.__wab_flex-container) > *,
+.button2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.button2 > :global(.__wab_flex-container) > picture > img,
+.button2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.text__c6Kz {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20.5px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.goodMorning3 {
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 0.059))
+    drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.07));
+  width: 336px;
+  height: 365px;
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.goodMorning3 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.goodMorning3 > :global(.__wab_flex-container) > *,
+.goodMorning3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.goodMorning3 > :global(.__wab_flex-container) > picture > img,
+.goodMorning3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.cardImage3 {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.cardImage3 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.cardImage3 > :global(.__wab_flex-container) > *,
+.cardImage3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardImage3 > :global(.__wab_flex-container) > picture > img,
+.cardImage3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.image79 {
+  background: url("/plasmic/blank_project/images/image77.png") center center / cover no-repeat;
+  display: block;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.frame95456 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.frame95456 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame95456 > :global(.__wab_flex-container) > *,
+.frame95456 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame95456 > :global(.__wab_flex-container) > picture > img,
+.frame95456
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.frame95457 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text__xh9YL {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__pg7Nc {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__hkHde {
+  display: block;
+  font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.75);
+  align-self: stretch;
+  position: relative;
+}
+.buttonContainer3 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.buttonContainer3 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.buttonContainer3 > :global(.__wab_flex-container) > *,
+.buttonContainer3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttonContainer3 > :global(.__wab_flex-container) > picture > img,
+.buttonContainer3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.button3 {
+  flex-direction: row;
+  background: rgba(41, 241, 173, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 9px 32px 10px;
+}
+.button3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.button3 > :global(.__wab_flex-container) > *,
+.button3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.button3 > :global(.__wab_flex-container) > picture > img,
+.button3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.text__psFdb {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20.5px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.goodMorning4 {
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 0.059))
+    drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.07));
+  width: 336px;
+  height: 365px;
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.goodMorning4 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.goodMorning4 > :global(.__wab_flex-container) > *,
+.goodMorning4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.goodMorning4 > :global(.__wab_flex-container) > picture > img,
+.goodMorning4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.cardImage4 {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.cardImage4 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.cardImage4 > :global(.__wab_flex-container) > *,
+.cardImage4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardImage4 > :global(.__wab_flex-container) > picture > img,
+.cardImage4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.image80 {
+  background: url("/plasmic/blank_project/images/image77.png") center center / cover no-repeat;
+  display: block;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.frame95458 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.frame95458 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame95458 > :global(.__wab_flex-container) > *,
+.frame95458 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame95458 > :global(.__wab_flex-container) > picture > img,
+.frame95458
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.frame95459 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text__auMcl {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__zxh2T {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text___6Lk7A {
+  display: block;
+  font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.75);
+  align-self: stretch;
+  position: relative;
+}
+.buttonContainer4 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.buttonContainer4 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.buttonContainer4 > :global(.__wab_flex-container) > *,
+.buttonContainer4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttonContainer4 > :global(.__wab_flex-container) > picture > img,
+.buttonContainer4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.button4 {
+  flex-direction: row;
+  background: rgba(41, 241, 173, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 9px 32px 10px;
+}
+.button4 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.button4 > :global(.__wab_flex-container) > *,
+.button4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.button4 > :global(.__wab_flex-container) > picture > img,
+.button4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.text___8Od4X {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20.5px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.continueLearningSection2 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.continueLearningSection2 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.continueLearningSection2 > :global(.__wab_flex-container) > *,
+.continueLearningSection2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.continueLearningSection2 > :global(.__wab_flex-container) > picture > img,
+.continueLearningSection2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.text__qgNgt {
+  display: block;
+  font-size: 24px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(43, 43, 43, 1);
+  position: relative;
+}
+.cardsContinueLearningRow2 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.cardsContinueLearningRow2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.cardsContinueLearningRow2 > :global(.__wab_flex-container) > *,
+.cardsContinueLearningRow2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.cardsContinueLearningRow2 > :global(.__wab_flex-container) > picture > img,
+.cardsContinueLearningRow2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+}
+.goodMorning5 {
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 0.059))
+    drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.07));
+  width: 336px;
+  height: 365px;
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.goodMorning5 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.goodMorning5 > :global(.__wab_flex-container) > *,
+.goodMorning5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.goodMorning5 > :global(.__wab_flex-container) > picture > img,
+.goodMorning5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.cardImage5 {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.cardImage5 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.cardImage5 > :global(.__wab_flex-container) > *,
+.cardImage5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardImage5 > :global(.__wab_flex-container) > picture > img,
+.cardImage5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.image81 {
+  background: url("/plasmic/blank_project/images/image77.png") center center / cover no-repeat;
+  display: block;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.frame95460 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.frame95460 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame95460 > :global(.__wab_flex-container) > *,
+.frame95460 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame95460 > :global(.__wab_flex-container) > picture > img,
+.frame95460
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.frame95461 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text__u5OnP {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__smkql {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__kEBk {
+  display: block;
+  font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.75);
+  align-self: stretch;
+  position: relative;
+}
+.buttonContainer5 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.buttonContainer5 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.buttonContainer5 > :global(.__wab_flex-container) > *,
+.buttonContainer5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttonContainer5 > :global(.__wab_flex-container) > picture > img,
+.buttonContainer5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.button5 {
+  flex-direction: row;
+  background: rgba(41, 241, 173, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 9px 32px 10px;
+}
+.button5 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.button5 > :global(.__wab_flex-container) > *,
+.button5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.button5 > :global(.__wab_flex-container) > picture > img,
+.button5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.text___16AG6 {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20.5px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.goodMorning6 {
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 0.059))
+    drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.07));
+  width: 336px;
+  height: 365px;
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.goodMorning6 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.goodMorning6 > :global(.__wab_flex-container) > *,
+.goodMorning6 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.goodMorning6 > :global(.__wab_flex-container) > picture > img,
+.goodMorning6
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.cardImage6 {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.cardImage6 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.cardImage6 > :global(.__wab_flex-container) > *,
+.cardImage6 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardImage6 > :global(.__wab_flex-container) > picture > img,
+.cardImage6
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.image82 {
+  background: url("/plasmic/blank_project/images/image77.png") center center / cover no-repeat;
+  display: block;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.frame95462 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.frame95462 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame95462 > :global(.__wab_flex-container) > *,
+.frame95462 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame95462 > :global(.__wab_flex-container) > picture > img,
+.frame95462
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.frame95463 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text__wizQ4 {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__ooyfu {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__iofOv {
+  display: block;
+  font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.75);
+  align-self: stretch;
+  position: relative;
+}
+.buttonContainer6 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.buttonContainer6 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.buttonContainer6 > :global(.__wab_flex-container) > *,
+.buttonContainer6 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttonContainer6 > :global(.__wab_flex-container) > picture > img,
+.buttonContainer6
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.button6 {
+  flex-direction: row;
+  background: rgba(41, 241, 173, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 9px 32px 10px;
+}
+.button6 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.button6 > :global(.__wab_flex-container) > *,
+.button6 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.button6 > :global(.__wab_flex-container) > picture > img,
+.button6
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.text__bGpLe {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20.5px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.goodMorning7 {
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 0.059))
+    drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.07));
+  width: 336px;
+  height: 365px;
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.goodMorning7 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.goodMorning7 > :global(.__wab_flex-container) > *,
+.goodMorning7 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.goodMorning7 > :global(.__wab_flex-container) > picture > img,
+.goodMorning7
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.cardImage7 {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.cardImage7 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.cardImage7 > :global(.__wab_flex-container) > *,
+.cardImage7 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardImage7 > :global(.__wab_flex-container) > picture > img,
+.cardImage7
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.image83 {
+  background: url("/plasmic/blank_project/images/image77.png") center center / cover no-repeat;
+  display: block;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.frame95464 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.frame95464 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame95464 > :global(.__wab_flex-container) > *,
+.frame95464 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame95464 > :global(.__wab_flex-container) > picture > img,
+.frame95464
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.frame95465 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text__p0Vzd {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__naged {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__p6Erm {
+  display: block;
+  font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.75);
+  align-self: stretch;
+  position: relative;
+}
+.buttonContainer7 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.buttonContainer7 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.buttonContainer7 > :global(.__wab_flex-container) > *,
+.buttonContainer7 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttonContainer7 > :global(.__wab_flex-container) > picture > img,
+.buttonContainer7
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.button7 {
+  flex-direction: row;
+  background: rgba(41, 241, 173, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 9px 32px 10px;
+}
+.button7 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.button7 > :global(.__wab_flex-container) > *,
+.button7 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.button7 > :global(.__wab_flex-container) > picture > img,
+.button7
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.text__cWZi5 {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20.5px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.goodMorning8 {
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 0.059))
+    drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.07));
+  width: 336px;
+  height: 365px;
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.goodMorning8 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.goodMorning8 > :global(.__wab_flex-container) > *,
+.goodMorning8 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.goodMorning8 > :global(.__wab_flex-container) > picture > img,
+.goodMorning8
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.cardImage8 {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.cardImage8 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.cardImage8 > :global(.__wab_flex-container) > *,
+.cardImage8 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardImage8 > :global(.__wab_flex-container) > picture > img,
+.cardImage8
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.image84 {
+  background: url("/plasmic/blank_project/images/image77.png") center center / cover no-repeat;
+  display: block;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.frame95466 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.frame95466 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame95466 > :global(.__wab_flex-container) > *,
+.frame95466 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame95466 > :global(.__wab_flex-container) > picture > img,
+.frame95466
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.frame95467 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text__pGx0P {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__zFlUe {
+  display: block;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(43, 43, 43, 1);
+  align-self: stretch;
+  position: relative;
+}
+.text__beF0X {
+  display: block;
+  font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.75);
+  align-self: stretch;
+  position: relative;
+}
+.buttonContainer8 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.buttonContainer8 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.buttonContainer8 > :global(.__wab_flex-container) > *,
+.buttonContainer8 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttonContainer8 > :global(.__wab_flex-container) > picture > img,
+.buttonContainer8
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.button8 {
+  flex-direction: row;
+  background: rgba(41, 241, 173, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 9px 32px 10px;
+}
+.button8 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.button8 > :global(.__wab_flex-container) > *,
+.button8 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.button8 > :global(.__wab_flex-container) > picture > img,
+.button8
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.text__qBgXf {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20.5px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}

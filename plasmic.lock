@@ -1,0 +1,79 @@
+{
+  "projects": [
+    {
+      "projectId": "5wGstQGeQkFUeMBXHxB4bP",
+      "version": "latest",
+      "dependencies": {},
+      "lang": "js",
+      "fileLocks": [
+        {
+          "type": "globalVariant",
+          "assetId": "sqtHfvVtR_rYS",
+          "checksum": "440e55471e82341c90cc43338876e739"
+        },
+        {
+          "assetId": "5wGstQGeQkFUeMBXHxB4bP",
+          "type": "projectCss",
+          "checksum": "bb2c8ae53b428ae2347e2af8051effd6"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "dzYbX16iC9EH",
+          "checksum": "e0191e2c7f402a80e9c58cf3981a8139"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "dzYbX16iC9EH",
+          "checksum": "e0191e2c7f402a80e9c58cf3981a8139"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "bCkSoC7eAE",
+          "checksum": "e45aef85e42a97312f1a7be12f7268b6"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "bCkSoC7eAE",
+          "checksum": "e45aef85e42a97312f1a7be12f7268b6"
+        },
+        {
+          "type": "icon",
+          "assetId": "ISvIJLTuRg3q1",
+          "checksum": "63ef16c1c80b6769899d8864a5c7476c"
+        },
+        {
+          "type": "icon",
+          "assetId": "HHlhm6_VFExfg",
+          "checksum": "542f1932f3d286f78cf46aabbf360b2c"
+        },
+        {
+          "type": "image",
+          "assetId": "lZh7l3J6HQVyS",
+          "checksum": "cbd6d1e149622b2836c5699595087976"
+        },
+        {
+          "type": "image",
+          "assetId": "kjixGPg_G",
+          "checksum": "d56aa25d7c77793eb5ae25078baf44c8"
+        },
+        {
+          "type": "image",
+          "assetId": "3L_efJvLnf",
+          "checksum": "c97ec920f9b46fe878732dc6cfe28f2c"
+        },
+        {
+          "type": "image",
+          "assetId": "7WvDpFY8pE",
+          "checksum": "aaf71c6e5479051868f2af1491a2b2a9"
+        },
+        {
+          "type": "image",
+          "assetId": "hesdAt8aUl",
+          "checksum": "2ee9f6794726891d87179f6714ef1b06"
+        }
+      ],
+      "codegenVersion": "0.0.1"
+    }
+  ],
+  "cliVersion": "0.1.170"
+}
